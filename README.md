@@ -1,6 +1,9 @@
 # Global git status script
 This script checks if there are any uncommitted changes in any of your local GIT repositories and sends an email with the repository directories that contain uncommitted changes.
 
+## Requirements
+In order to work, this script requires that you have `swaks` installed.
+
 ## Configuration
 To get the script working, you need to rename the `.env.example` file to `.env`and adjust the variables contained in it:
 - `GIT_SEARCH` - The base path within to search for local GIT repositories. Set to `/` to search everywhere
